@@ -5,12 +5,10 @@ class Program
 {
     static void Main()
     {
-
         string desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         string path = Path.Combine(desktop, "field.txt");
 
         Console.WriteLine($"Ищу файл: {path}");
-
 
         if (!File.Exists(path))
         {
@@ -24,7 +22,6 @@ class Program
             });
             Console.WriteLine("Файл не найден. Создан новый field.txt на рабочем столе.");
         }
-
 
         string[] field = File.ReadAllLines(path);
 
@@ -45,7 +42,6 @@ class Program
             return;
         }
 
-        
         if (y < 0 || y >= field.Length || x < 0 || x >= field[y].Length)
         {
             Console.WriteLine("Координаты за пределами поля!");
@@ -56,10 +52,8 @@ class Program
 
         if (cell == '#')
         {
-            char[] row = field[y].ToCharArray();
-            row[x] = '*';
-            field[y] = new string(row);
-            Console.WriteLine("\n>>> Попадание! Решётка заменена на *");
+            ReplaceArea(field, x, y);  
+            Console.WriteLine("\n>>> Попадание! Решётки в зоне заменены на *");
         }
         else if (cell == '.')
         {
@@ -75,6 +69,33 @@ class Program
 
         File.WriteAllLines(path, field);
         Console.WriteLine($"\nИзменения сохранены в {path}");
+    }
+
+ 
+    static void ReplaceArea(string[] field, int x, int y)
+    {
+
+        for (int dy = -1; dy <= 1; dy++)
+        {
+
+            for (int dx = -1; dx <= 1; dx++)
+            {
+                int nx = x + dx;  
+                int ny = y + dy;  
+
+           
+                if (ny < 0 || ny >= field.Length) continue;
+                if (nx < 0 || nx >= field[ny].Length) continue;
+
+               
+                if (field[ny][nx] == '#')
+                {
+                    char[] row = field[ny].ToCharArray();
+                    row[nx] = '*';
+                    field[ny] = new string(row);
+                }
+            }
+        }
     }
 
     static void PrintField(string[] field)
