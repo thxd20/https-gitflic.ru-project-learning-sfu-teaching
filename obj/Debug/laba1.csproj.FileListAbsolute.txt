@@ -1,0 +1,8 @@
+C:\Users\student\Desktop\zada\z3\ConsoleApplication1\laba1\bin\Debug\laba1.exe.config
+C:\Users\student\Desktop\zada\z3\ConsoleApplication1\laba1\bin\Debug\laba1.exe
+C:\Users\student\Desktop\zada\z3\ConsoleApplication1\laba1\bin\Debug\laba1.pdb
+C:\Users\student\Desktop\zada\z3\ConsoleApplication1\laba1\obj\Debug\laba1.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\zada\z3\ConsoleApplication1\laba1\obj\Debug\laba1.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\zada\z3\ConsoleApplication1\laba1\obj\Debug\laba1.exe
+C:\Users\student\Desktop\zada\z3\ConsoleApplication1\laba1\obj\Debug\laba1.pdb
+C:\Users\student\Desktop\zada\z3\ConsoleApplication1\laba1\obj\Debug\laba1.exe.config
