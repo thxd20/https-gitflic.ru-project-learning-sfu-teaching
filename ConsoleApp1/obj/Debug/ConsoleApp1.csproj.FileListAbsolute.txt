@@ -1,0 +1,15 @@
+C:\temp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\temp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\temp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\temp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\temp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\temp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\temp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\student\Downloads\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\student\Downloads\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\student\Downloads\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\student\Downloads\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\student\Downloads\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe.config
+C:\Users\student\Downloads\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\student\Downloads\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\student\Downloads\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
